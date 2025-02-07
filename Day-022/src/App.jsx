@@ -1,5 +1,5 @@
 import KanbanBoard from './components/KanbanBoard';
-import { KanbanProvider } from './context/KanbanContext';
+import { KanbanProvider } from './context/KanbanProvider';
 import './App.css';
 
 function App() {
