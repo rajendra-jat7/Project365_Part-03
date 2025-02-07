@@ -1,0 +1,63 @@
+.poke-container {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+  }
+
+  .poke-container h2{
+    color: black;
+  }
+
+  .poke-container p{
+    color: silver;
+  }
+  
+  .poke-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .poke-card img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .poke-card h3 {
+    margin: 10px 0;
+    color: #333;
+  }
+
+  .poke-card p{
+    color: gray;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .like {
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .dislike {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
