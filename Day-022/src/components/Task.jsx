@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const Task = ({ task, index }) => {
   return (
-    <Droppable draggableId={task.id} index={index}>
+    <Droppable droppableId={task.id} index={index}>
       {(provided) => (
         <div
           ref={provided.innerRef}
