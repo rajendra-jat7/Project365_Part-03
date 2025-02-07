@@ -1,4 +1,4 @@
-import { ThemeProvider } from "./context/ThemeContext";
+import { ThemeProvider } from "./context/ThemeProvider";
 import ThemeToggle from "./components/ThemeToggle";
 import "./App.css";
 
